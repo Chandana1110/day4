@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./style.scss"
 
-import child_component from "./child_component.jsx"
+import Child_component from "./child_component.jsx"
 
 export default class parent extends Component {
 
@@ -64,7 +64,7 @@ export default class parent extends Component {
                 <br />
 
                 
-                <child_component child_style={this.state.child_style}/>
+                <Child_component child_style={this.state.child_style}/>
 
                
 
